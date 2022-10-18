@@ -1,5 +1,8 @@
 package com.choidh.securityinflearn.account;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.persistence.Column;
@@ -7,6 +10,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Account {
 

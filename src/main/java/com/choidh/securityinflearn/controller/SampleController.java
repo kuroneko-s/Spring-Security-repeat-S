@@ -14,7 +14,7 @@ public class SampleController {
     @GetMapping("/")
     public String index(Model model, Principal principal) {
         if ( principal == null ) {
-            model.addAttribute("message", "choidh hello");
+            model.addAttribute("message", "anonymous hello");
         } else {
             model.addAttribute("message", principal.getName() + " hello");
             log.info(principal.toString());
