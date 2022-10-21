@@ -32,11 +32,9 @@ public class SecurityConfig {
                         .mvcMatchers("/account/**").permitAll()
                         .anyRequest().authenticated())
                 .formLogin()
-                .defaultSuccessUrl("/dashboard")
-                .failureUrl("/")
+                .defaultSuccessUrl("/")
                 .and()
                 .httpBasic();
-
 
         return http.build();
     }
