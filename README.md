@@ -5,3 +5,6 @@ https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%E
 
 ### 스프링 시큐리티 변경 내용 관련 블로그       
 https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
+
+
+### JS 전향을 위해 진행 취소.
